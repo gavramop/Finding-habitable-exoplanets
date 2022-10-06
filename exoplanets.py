@@ -25,7 +25,7 @@ import re
 %autoreload 2
 
 
-df = pd.read_csv('C:/Users/gogas/Desktop/kepler_koi.csv',
+df = pd.read_csv('kepler_koi.csv',
                          comment='#',
                          infer_datetime_format=True)
 
